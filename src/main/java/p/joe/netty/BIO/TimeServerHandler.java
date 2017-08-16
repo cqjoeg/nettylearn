@@ -1,4 +1,4 @@
-package p.joe.netty;
+package p.joe.netty.BIO;
 
 
 import java.io.BufferedReader;
