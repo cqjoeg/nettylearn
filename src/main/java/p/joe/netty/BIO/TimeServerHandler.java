@@ -11,10 +11,11 @@ public class TimeServerHandler implements Runnable{
 
     private Socket socket;
 
+
+
     public TimeServerHandler(Socket socket) {
         this.socket = socket;
     }
-
 
     public void run() {
         BufferedReader in = null;
